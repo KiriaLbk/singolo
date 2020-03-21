@@ -91,6 +91,11 @@ body
     font-weight: 700;
     margin-top: 5.3px;
 }
+.navigation-href
+{
+    text-decoration:none;
+    color:#ffffff;
+}
 .navigation__item:hover
 {
     cursor: pointer;

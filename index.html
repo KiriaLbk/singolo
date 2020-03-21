@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singolo</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
-        <header class="header">
+        <header id="header" class="header">
             <div class="header__container">
                 <h1 class="logo__header">
                     <a href="#" class="title-href">
@@ -17,11 +18,11 @@
                 </h1>
                 <nav class="header__navigation">
                     <ul class="navigation">
-                        <li class="navigation__item">HOME</a>
-                        <li class="navigation__item">SERVICES</li>
-                        <li class="navigation__item">PORTFOLIO</li>
-                        <li class="navigation__item">ABOUT</li>
-                        <li class="navigation__item">CONTACT</li>
+                        <li class="navigation__item"><a href="#header" class="navigation-href">HOME</a></li>
+                        <li class="navigation__item"><a href="#services" class="navigation-href">SERVICES</a></li>
+                        <li class="navigation__item"><a href="#portfolio" class="navigation-href">PORTFOLIO</a></li>
+                        <li class="navigation__item"><a href="#about" class="navigation-href">ABOUT</a></li>
+                        <li class="navigation__item"><a href="#contact" class="navigation-href">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
@@ -43,7 +44,7 @@
                     </div>                
                 </div>
             </div>
-            <section class="services">
+            <section id="services" class="services">
                 <div class="services__container">
                     <p class="services__title">Our Services</p>
                     <p class="services__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor
@@ -118,7 +119,7 @@
                     </div> 
                 </div>
             </section>
-            <section class="portfolio">
+            <section id="portfolio" class="portfolio">
                 <div class="portfolio__container">
                     <p class="portfolio__title">
                         Portfolio
@@ -149,7 +150,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about-us">
+            <section id="about" class="about-us">
                 <div class="about-us__container">
                     <p class="about-us__title">
                         About Us
@@ -210,7 +211,7 @@
                     </div>
                 </div>
             </section>
-            <section class="get-a-quote">
+            <section id="contact" class="get-a-quote">
                 <div class="get-a-guote__container">
                     <p class="get-a-quote__title">
                         Get a Quote
@@ -225,7 +226,7 @@
                             <input type="email" placeholder="Email" name="mail" class="form__email" required>
                             <input type="text" placeholder="Subject" name="sub" class="form__subject">
                             <input type="text" placeholder="Describe your project in detail..." name="describe" class="form__describe">
-                            <input type="submit" value="Button" name="button"  class="form__submit">
+                            <input type="button" value="Button" name="button"  class="form__submit">
                         </form>
                     </div>
                     <div class="get-a-guote__contact">
